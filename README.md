@@ -8,3 +8,5 @@ The basic project structure was created using the `maven-archetype-quickstart` a
 
 ```bash
 mvn archetype:generate -DgroupId=edu.eci.dosw.lab -DartifactId=DOSW-Laboratorio3 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+git test
