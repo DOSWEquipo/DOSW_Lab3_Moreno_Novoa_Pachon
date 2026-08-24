@@ -9,7 +9,7 @@
 < Describir el problema principal a resolver del Caso de Estudio>
 
 ## 3. Diagrama de Contexto
-
+![Diagram](docs/images/ContextDiagram-LAB03-DOSW.png)
 ### 3.1 Diagrama
 
 Relacionar imagen del diagrama de contexto realizado
