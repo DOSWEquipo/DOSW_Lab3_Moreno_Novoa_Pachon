@@ -37,10 +37,18 @@ Relacionar imagen del diagrama de contexto realizado
 ## 4. Alcance del sistema
    
 ### 4.1 Dentro del sistema
-
+1. Autenticación de roles (organizadores, estudiantes, capitanes) utilizando usuario y contraseña.
+2. Creación y administración de torneos.
+3. Registro de equipos en el torneo activo.  
+4. Procesamiento y validación de pagos de inscripción usando PSE.
+5. Generación de reportes de equipos registrados.
+6. Envío de reportes a la decanatura. 
 Funciones que el sistema sí realiza (Relacione al menos 4).
 
 ### 4.2 Fuera del sistema
-
+1. Gestión de partidos y calendario de encuentros.
+2. Proceso de transacciones bancarias. (Se hace a través de PSE).
+3. Gestión de jugadores individuales.
+4. Notificaciones a equipos.
 Funciones que no realiza (Relacione al menos 3).
 
