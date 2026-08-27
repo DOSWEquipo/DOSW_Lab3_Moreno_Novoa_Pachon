@@ -42,8 +42,6 @@ El sistema de Bankify debe tener:
 
 ### 2.2 Requerimiento Funcional 2
 
-### 2.2 Requerimiento Funcional 2
-
 | Campo | Descripción |
 |------|-------------|
 | **ID** | RF-02 |
