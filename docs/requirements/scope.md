@@ -2,11 +2,15 @@
 
 ## 1. Sistema
 
-* Nombre del sistema:
-* Objetivo: El sistema tiene como objetivo: (Indicar el objetivo del sistema de Bankify)
+* Nombre del sistema: **TechCup**
+* Objetivo: El objetivo del sistema es **garantizar que los torneos y las inscripciones cumplan con reglas específicas**, al tiempo que permite a los usuarios interactuar con la plataforma de forma sencilla y segura.
 
 ## 2. Problema a resolver
-< Describir el problema principal a resolver del Caso de Estudio>
+Actualmente, la Escuela Colombiana de Ingeniería Julio Garavito no cuenta con un sistema centralizado para gestionar de manera sencilla y segura los torneos de fútbol semestrales de los programas de Ingeniería de Sistemas, Ingeniería de Inteligencia Artificial, Ingeniería de Ciberseguridad e Ingeniería Estadística.
+
+Esta situación dificulta la gestión de los torneos y el proceso de inscripción de los equipos, incluyendo el registro de equipos, el procesamiento y validación de los pagos, la consulta de los equipos inscritos y la generación de informes relacionados con las inscripciones y los ingresos.
+
+Por lo tanto, se requiere una plataforma digital que permita centralizar y facilitar la gestión de los torneos, equipos, inscripciones y pagos, garantizando el cumplimiento de las reglas establecidas por la Escuela.
 
 ## 3. Diagrama de Contexto
 ![Diagram](docs/images/ContextDiagram-LAB03-DOSW.png)
