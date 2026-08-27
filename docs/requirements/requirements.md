@@ -36,7 +36,7 @@ El sistema de Bankify debe tener:
 | **Precondiciones** | El organizador debe estar autenticado en el sistema y contar con autorización para gestionar torneos, de acuerdo con su rol de organizador. |
 | **Actor** | Organizador |
 | **Flujo principal** | 1. El organizador selecciona la opción para crear un torneo.<br> 2. El sistema solicita la información básica del torneo.<br>3. El organizador ingresa el código, fechas, cuota de inscripción y reglas del torneo.<br>4. El sistema verifica que el código tenga cinco dígitos y sea único.<br>5. El sistema verifica que la duración del torneo no sea superior a un día.<br>6. El sistema registra el torneo. |
-| **Diagrama de caso de uso** | [Use Case Create Tournament Diagram](./../images/UseCaseCreateTournament.png)|
+| **Diagrama de caso de uso** | ![Use Case Create Tournament Diagram](./../uml/UseCaseCreateTournament.png) [Use Case Create Tournament Diagram](./../uml/UseCaseCreateTournament.png)|
 | **Poscondiciones** | El torneo queda registrado en el sistema con la información proporcionada y puede ser gestionado por el organizador. |
 
 
@@ -50,7 +50,7 @@ El sistema de Bankify debe tener:
 | **Precondiciones** | TechCup debe tener previamente un torneo en estado *Activo* y el usuario debe estar autenticado como capitán. |
 | **Actor** | Capitán |
 | **Flujo principal** | 1. El capitán selecciona la opción de registrar su equipo.<br>2. El sistema muestra el torneo actualmente activo.<br>3. El sistema valida que el equipo no esté ya registrado y confirma la inscripción, quedando pendiente del pago. |
-| **Diagrama de caso de uso** |  [Use Case Register Diagram](./../images/UseCaseRegister.png)|
+| **Diagrama de caso de uso** |  ![Use Case Register Diagram](./../uml/UseCaseRegister.png) [Use Case Register Diagram](./../uml/UseCaseRegister.png) |
 | **Poscondiciones** | El equipo queda vinculado al torneo activo, en estado pendiente de pago de la inscripción. |
 
 ### 2.3 Requerimiento Funcional 3
@@ -58,12 +58,12 @@ El sistema de Bankify debe tener:
 | Campo | Descripción |
 |------|-------------|
 | **ID** | RF-03 |
-| **Nombre del requerimiento** | Generación de reporte de equipos inscritos |
+| **Nombre del requerimiento** | Generar de reporte de equipos inscritos |
 | **Descripción** | El sistema debe permitirle a un usuario con el rol de organizador, generar un reporte con la información de los equipos inscritos hasta el momento en el que se realiza la solicitud. |
 | **Precondiciones** | El usuario debe tener permisos de organizador y el sistema debe estar conectado con Power BI para generar el informe con los datos de los equipos registrados en el torneo |
 | **Actor** | Organizador |
 | **Flujo principal** | 1. El organizador selecciona la opción de generar reporte. <br>2. El Sistema emite un mensaje indicando que el reporte se está preparando.  <br>3. El sistema se conecta con PowerBI y envía los datos de los equipos registrados al momento. <br>4. PowerBI le envía un archivo al sistema con el informe consolidado. <br>5. El sistema se conecta con el correo institucional para enviarle el reporte al organizador. <br>6. El sistema emite un mensaje de notificación indicandole al organizador que ya tiene el reporte en su correo. |
-| **Diagrama de caso de uso** | [Use Case Report Diagram](./../images/UseCaseReport.png) |
+| **Diagrama de caso de uso** | ![Use Case Report Diagram](./../uml/UseCaseReport.png) [Use Case Report Diagram](./../uml/UseCaseReport.png) |
 | **Poscondiciones** | El organizador recibe un documento en su correo institucional, con la toda información consolidada de los equipos registrados al momento de hacer la solicitud. |
 
 ## 3. Preguntas
