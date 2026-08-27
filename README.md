@@ -1,6 +1,8 @@
-# DOSW_Lab3_Moreno_Novoa_Pachon
-Repository dedicated to user research, requirements gathering, and UI/UX design. Integrates specification techniques like context diagrams, requirements definition and analysis, mockups and navigation flows
+# DOSW Lab 3 - Moreno, Novoa & Pachón
 
+Repository dedicated to **user research, requirements gathering, and UI/UX design**. It integrates specification techniques such as context diagrams, requirements definition and analysis, mockups, and navigation flows.
+
+---
 
 ## Maven Project Structure
 
@@ -8,18 +10,23 @@ The basic project structure was created using the `maven-archetype-quickstart` a
 
 ```bash
 mvn archetype:generate -DgroupId=edu.eci.dosw.lab -DartifactId=DOSW-Laboratorio3 -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+```
+
+This command generates a basic Maven project with the standard directory structure and configuration files required for a Java project.
+
+---
 
 ## Maven and GitHub Questions
 
-## 1. What is a Maven archetype?
+### 1. What is a Maven archetype?
 
 A Maven archetype is a template used to quickly create the basic structure of a project. It provides a predefined structure of directories and files that can be used as a starting point for developing a project.
 
-## 2. What is the purpose of the `maven-archetype-quickstart` archetype?
+### 2. What is the purpose of the `maven-archetype-quickstart` archetype?
 
 The purpose of the `maven-archetype-quickstart` archetype is to quickly create a basic Java Maven project. It generates an initial project structure that includes a `pom.xml` file, a main Java class, and a test class.
 
-## 3. What command can be used to create a project based on a Maven archetype?
+### 3. What command can be used to create a project based on a Maven archetype?
 
 The command used to create a project based on a Maven archetype is:
 
@@ -27,13 +34,13 @@ The command used to create a project based on a Maven archetype is:
 mvn archetype:generate
 ```
 
-This command invokes the Maven Archetype Plugin and allows a new project to be generated from an existing archetype. The command uses the information provided by the developer, such as the project name, group ID, artifact ID, and the archetype to use. Maven then creates the project with the directory structure and files defined by the selected archetype.
+This command invokes the **Maven Archetype Plugin** and allows a new project to be generated from an existing archetype. It uses information provided by the developer, such as the project name, `groupId`, `artifactId`, and the archetype to be used. Maven then generates the directory structure and files defined by the selected archetype.
 
-## 4. What is a Pull Request in GitHub?
+### 4. What is a Pull Request in GitHub?
 
 A Pull Request (PR) in GitHub is a request to merge changes from one branch into another branch of a repository. It allows collaborators to review the changes, leave comments, and suggest modifications before the changes are merged.
 
-## 5. How do you create a Pull Request in GitHub?
+### 5. How do you create a Pull Request in GitHub?
 
 To create a Pull Request in GitHub:
 
@@ -47,7 +54,7 @@ To create a Pull Request in GitHub:
 8. Add a title and description for the Pull Request.
 9. Click **Create pull request**.
 
-## 6. How do you approve a Pull Request in GitHub?
+### 6. How do you approve a Pull Request in GitHub?
 
 To approve a Pull Request:
 
@@ -60,11 +67,11 @@ To approve a Pull Request:
 
 After the Pull Request has been approved and the repository requirements have been met, a user with the necessary permissions can merge it into the target branch.
 
-## 7. References
+### 7. References
 
-Apache Maven. (n.d.). *Maven Archetype Plugin*. Apache Maven. https://maven.apache.org/archetype/maven-archetype-plugin/
+* Apache Maven. (n.d.). *Maven Archetype Plugin*. Apache Maven. https://maven.apache.org/archetype/maven-archetype-plugin/
 
-Apache Maven. (n.d.). *Maven Getting Started Guide*. Apache Maven. https://maven.apache.org/guides/getting-started/
+* Apache Maven. (n.d.). *Maven Getting Started Guide*. Apache Maven. https://maven.apache.org/guides/getting-started/
 
-GitHub Docs. (n.d.). *About pull requests*. GitHub. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+* GitHub Docs. (n.d.). *About pull requests*. GitHub. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
 
