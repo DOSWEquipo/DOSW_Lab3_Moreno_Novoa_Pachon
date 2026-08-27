@@ -8,21 +8,21 @@ El sistema de TechCup tiene los siguientes requerimientos (descripción a alto n
 
 El sistema de TechCup debe tener la capacidad de:
 
-1. <mark>La aplicación debe permitir a los organizadores crear torneos, especificando su información básica.</mark>
-2. <mark>La aplicación debe permitir a los usuarios registrarse a torneos activos.</mark>
-3. El sistema debe proteger las credenciales de los usuarios mediante autenticación por correo y contraseña.
-4. Procesar el pago realizado por los capitanes de la inscripción a través de PSE.
-5. <mark>Permitir a los organizadores generar un reporte sobre los equipos inscritos.</mark>
+1. <mark> **Creación de torneos:**la aplicación debe permitir a los organizadores crear torneos especificando su información básica, incluyendo fechas, cuota de inscripción y reglas establecidas</mark>
+2. <mark> **Registro en torneos:** la aplicación debe permitir a los usuarios registrar sus equipos en el torneo que se encuentre activo, de acuerdo con las reglas establecidas.</mark>
+3. **Autenticación de usuarios:** el sistema debe permitir a los usuarios acceder mediante correo electrónico y contraseña, protegiendo sus credenciales de acceso.
+4. **Pago de inscripción:** el sistema debe permitir a los capitanes realizar el pago correspondiente a la inscripción de sus equipos mediante PSE.
+5. <mark> **Reporte de equipos inscritos:** la aplicación debe permitir a los organizadores generar un reporte con la información de los equipos inscritos en un torneo.</mark>
 
 ### 1.2 Requerimientos no funcionales
 
 El sistema de Bankify debe tener:
 
-1. Las contraseñas de los usuarios deben ser cifradas para proteger las cuentas.
-2. Una UI clara e intuitiva que permita fácil identificación de roles y torneos.
-3. El sistema debe soportar a varios torneos simultáneamente y mostrar sus respectivos estados.
-4. La aplicación debe mostrar un mensaje de confirmación al realizar el pago.
-5. La aplicación no debe demorarse más de unos segundos en responder a las solicitudes de los usuarios.
+1. **Seguridad:** las contraseñas de los usuarios deben ser almacenadas de forma segura mediante mecanismos de cifrado o hashing, con el fin de proteger sus cuentas.
+2. **Usabilidad:** la interfaz de usuario debe ser clara e intuitiva, permitiendo identificar fácilmente las opciones disponibles según el rol del usuario y la información de los torneos.
+3. **Gestión de torneos:** el sistema debe permitir gestionar diferentes torneos y mostrar claramente el estado correspondiente de cada uno, de acuerdo con los estados definidos para los torneos.
+4. **Confirmación de pagos:** la aplicación debe mostrar un mensaje de confirmación al usuario después de realizar un pago de inscripción.
+5. **Rendimiento:** la aplicación debe responder a las solicitudes de los usuarios en un tiempo adecuado, evitando demoras que afecten la interacción con la plataforma.
 
 ## 2. Diagramas de caso de uso
 
