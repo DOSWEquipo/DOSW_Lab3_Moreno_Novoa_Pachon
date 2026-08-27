@@ -58,13 +58,13 @@ El sistema de Bankify debe tener:
 | Campo | Descripción |
 |------|-------------|
 | **ID** | RF-03 |
-| **Nombre del requerimiento** | |
-| **Descripción** | *El sistema debe …* |
-| **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente …* |
-| **Actor** | *(El actor debe estar definido en el diagrama de contexto)* |
-| **Flujo principal** | 1. El actor …<br>2. El sistema …<br>3. El sistema … |
-| **Diagrama de caso de uso** | *imagen y link*|
-| **Poscondiciones** | *Se espera como resultado …* |
+| **Nombre del requerimiento** | Generación de reporte de equipos inscritos |
+| **Descripción** | El sistema debe permitirle a un usuario con el rol de organizador, generar un reporte con la información de los equipos inscritos hasta el momento en el que se realiza la solicitud. |
+| **Precondiciones** | El usuario debe tener permisos de organizador y el sistema debe estar conectado con Power BI para generar el informe con los datos de los equipos registrados en el torneo |
+| **Actor** | Organizador |
+| **Flujo principal** | 1. El organizador selecciona la opción de generar reporte. <br>2. El Sistema emite un mensaje indicando que el reporte se está preparando.  <br>3. El sistema se conecta con PowerBI y envía los datos de los equipos registrados al momento. <br>4. PowerBI le envía un archivo al sistema con el informe consolidado. <br>5. El sistema se conecta con el correo institucional para enviarle el reporte al organizador. <br>6. El sistema emite un mensaje de notificación indicandole al organizador que ya tiene el reporte en su correo. |
+| **Diagrama de caso de uso** | [Use Case Report Diagram](./../images/UseCaseReport.png) |
+| **Poscondiciones** | El organizador recibe un documento en su correo institucional, con la toda información consolidada de los equipos registrados al momento de hacer la solicitud. |
 
 ## 3. Preguntas
 1. Do you identify any requirement that needs to be further detailed? Which one(s)?
@@ -72,10 +72,11 @@ El sistema de Bankify debe tener:
     - Otro requerimiento que podríamos especificar un poco más es el 4 (Pago por PSE), no decimos qué pasa en caso de que el pago falle o sea rechazado.
 
 2. Are there any requirements that contradict each other? Which one(s)?
-    - Actualmente el requerimiento no funcional 3 dice que deben poder haber varios torneos simultáneamente, pero al ver el contexto del caso, se pide un solo torneo activo a la vez.
+    - Actualmente el requerimiento no funcional 3 dice que deben poder existir varios torneos simultáneamente, sin embargo, se contradice con el contexto del caso, donde se pide un solo torneo activo a la vez.
 
 3. If you had to prioritize the requirements, which 2 requirements should be considered the most important and implemented in the first iteration of the project?
-    - El RF-01 y RF-02. Estos 2 son esenciales. Sin poder crear torneos ni registrarnos a los mismos la aplicación no serviría de nada y no aportaría valor al negocio.
+    - El RF-01 y RF-02. Estos 2 son esenciales debido a que, si no podemos crear torneos ni registrarnos a los mismos, la aplicación no cumpliría con su propósito y no aportaría valor al negocio.
+  
 4. Is there any requirement that should not be implemented?
 
-    - Creemos que ninguno de los requisitos sobra. Necesitamos crear un torneo, registrar a un equipo, pagar la inscripción y reportar lo sucedido para aportar valor al negocio. Podríamos decir que el requerimiento de generación de reportes es el menos necesario, pero puede ser útil.
+    - Creemos que ninguno de los requerimientos está demás. Necesitamos crear un torneo, registrar a un equipo, pagar la inscripción y reportar lo sucedido para aportar valor al negocio, y cada uno de los requerimientos expuestos aporta algo a cumplir con ese objetivo. No obstante, podríamos decir que el requerimiento de generación de reportes no influye directamente en las dinámicas "operativas", siendo más una herramienta para el análisis gerencial.
