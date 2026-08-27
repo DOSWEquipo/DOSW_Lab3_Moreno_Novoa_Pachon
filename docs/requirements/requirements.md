@@ -2,11 +2,11 @@
 
 ## 1. Lista general de requerimientos
 
-El sistema de Bankify tiene los siguientes requerimientos (descripción a alto nivel):
+El sistema de TechCup tiene los siguientes requerimientos (descripción a alto nivel):
 
 ### 1.1 Requerimientos funcionales
 
-El sistema de Bankify debe tener la capacidad de:
+El sistema de TechCup debe tener la capacidad de:
 
 1. <mark>La aplicación debe permitir a los organizadores crear torneos, especificando su información básica.</mark>
 2. <mark>La aplicación debe permitir a los usuarios registrarse a torneos activos.</mark>
@@ -42,16 +42,18 @@ El sistema de Bankify debe tener:
 
 ### 2.2 Requerimiento Funcional 2
 
+### 2.2 Requerimiento Funcional 2
+
 | Campo | Descripción |
 |------|-------------|
 | **ID** | RF-02 |
-| **Nombre del requerimiento** | |
-| **Descripción** | *El sistema debe …* |
-| **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente …* |
-| **Actor** | *(El actor debe estar definido en el diagrama de contexto)* |
-| **Flujo principal** | 1. El actor …<br>2. El sistema …<br>3. El sistema … |
-| **Diagrama de caso de uso** | *imagen y link*|
-| **Poscondiciones** | *Se espera como resultado …* |
+| **Nombre del requerimiento** | Registro de equipo en torneo activo |
+| **Descripción** | El sistema debe permitir a un capitán registrar su equipo en el torneo que se encuentre actualmente en estado *Activo*. |
+| **Precondiciones** | TechCup debe tener previamente un torneo en estado *Activo* y el usuario debe estar autenticado como capitán. |
+| **Actor** | Capitán |
+| **Flujo principal** | 1. El capitán selecciona la opción de registrar su equipo.<br>2. El sistema muestra el torneo actualmente activo.<br>3. El sistema valida que el equipo no esté ya registrado y confirma la inscripción, quedando pendiente del pago. |
+| **Diagrama de caso de uso** |  |
+| **Poscondiciones** | El equipo queda vinculado al torneo activo, en estado pendiente de pago de la inscripción. |
 
 ### 2.3 Requerimiento Funcional 3
 
@@ -67,3 +69,7 @@ El sistema de Bankify debe tener:
 | **Poscondiciones** | *Se espera como resultado …* |
 
 ## 3. Preguntas
+1. Do you identify any requirement that needs to be further detailed? Which one(s)?
+2. Are there any requirements that contradict each other? Which one(s)?
+3. If you had to prioritize the requirements, which 2 requirements should be considered the most important and implemented in the first iteration of the project?
+4. Is there any requirement that should not be implemented?
