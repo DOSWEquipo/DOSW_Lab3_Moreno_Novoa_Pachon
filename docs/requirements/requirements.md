@@ -8,7 +8,7 @@ El sistema de TechCup tiene los siguientes requerimientos (descripción a alto n
 
 El sistema de TechCup debe tener la capacidad de:
 
-1. <mark> **Creación de torneos:**la aplicación debe permitir a los organizadores crear torneos especificando su información básica, incluyendo fechas, cuota de inscripción y reglas establecidas</mark>
+1. <mark> **Creación de torneos:** la aplicación debe permitir a los organizadores crear torneos especificando su información básica, incluyendo fechas, cuota de inscripción y reglas establecidas</mark>
 2. <mark> **Registro en torneos:** la aplicación debe permitir a los usuarios registrar sus equipos en el torneo que se encuentre activo, de acuerdo con las reglas establecidas.</mark>
 3. **Autenticación de usuarios:** el sistema debe permitir a los usuarios acceder mediante correo electrónico y contraseña, protegiendo sus credenciales de acceso.
 4. **Pago de inscripción:** el sistema debe permitir a los capitanes realizar el pago correspondiente a la inscripción de sus equipos mediante PSE.
@@ -31,13 +31,13 @@ El sistema de Bankify debe tener:
 | Campo | Descripción |
 |------|-------------|
 | **ID** | RF-01 |
-| **Nombre del requerimiento** | |
-| **Descripción** | *El sistema debe …* |
-| **Precondiciones** | *Para que el sistema cumpla con este requerimiento, Bankify debe tener previamente …* |
-| **Actor** | *(El actor debe estar definido en el diagrama de contexto)* |
-| **Flujo principal** | 1. El actor …<br>2. El sistema …<br>3. El sistema … |
-| **Diagrama de caso de uso** | *imagen y link*|
-| **Poscondiciones** | *Se espera como resultado …* |
+| **Nombre del requerimiento** | Creación de torneos |
+| **Descripción** | La aplicación debe permitir a los organizadores crear torneos especificando su información básica, incluyendo un código único de cinco dígitos basado en el año y el semestre académico, fechas, cuota de inscripción y reglas establecidas. |
+| **Precondiciones** | El organizador debe estar autenticado en el sistema y contar con autorización para gestionar torneos, de acuerdo con su rol de organizador. |
+| **Actor** | Organizador |
+| **Flujo principal** | 1. El organizador selecciona la opción para crear un torneo.<br> 2. El sistema solicita la información básica del torneo.<br>3. El organizador ingresa el código, fechas, cuota de inscripción y reglas del torneo.<br>4. El sistema verifica que el código tenga cinco dígitos y sea único.<br>5. El sistema verifica que la duración del torneo no sea superior a un día.<br>6. El sistema registra el torneo. |
+| **Diagrama de caso de uso** | [Use Case Create Tournament Diagram](./../images/UseCaseCreateTournament.png)|
+| **Poscondiciones** | El torneo queda registrado en el sistema con la información proporcionada y puede ser gestionado por el organizador. |
 
 
 ### 2.2 Requerimiento Funcional 2
