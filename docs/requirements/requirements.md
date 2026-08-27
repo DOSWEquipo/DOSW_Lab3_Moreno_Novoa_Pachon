@@ -42,8 +42,6 @@ El sistema de Bankify debe tener:
 
 ### 2.2 Requerimiento Funcional 2
 
-### 2.2 Requerimiento Funcional 2
-
 | Campo | Descripción |
 |------|-------------|
 | **ID** | RF-02 |
@@ -52,7 +50,7 @@ El sistema de Bankify debe tener:
 | **Precondiciones** | TechCup debe tener previamente un torneo en estado *Activo* y el usuario debe estar autenticado como capitán. |
 | **Actor** | Capitán |
 | **Flujo principal** | 1. El capitán selecciona la opción de registrar su equipo.<br>2. El sistema muestra el torneo actualmente activo.<br>3. El sistema valida que el equipo no esté ya registrado y confirma la inscripción, quedando pendiente del pago. |
-| **Diagrama de caso de uso** |  |
+| **Diagrama de caso de uso** |  [Use Case Register Diagram](./../images/UseCaseRegister.png)|
 | **Poscondiciones** | El equipo queda vinculado al torneo activo, en estado pendiente de pago de la inscripción. |
 
 ### 2.3 Requerimiento Funcional 3
@@ -70,6 +68,14 @@ El sistema de Bankify debe tener:
 
 ## 3. Preguntas
 1. Do you identify any requirement that needs to be further detailed? Which one(s)?
+    - Sí. Principalmente el requerimiento 5. No especificamos el formato del reporte, sus campos, filtros, etc.
+    - Otro requerimiento que podríamos especificar un poco más es el 4 (Pago por PSE), no decimos qué pasa en caso de que el pago falle o sea rechazado.
+
 2. Are there any requirements that contradict each other? Which one(s)?
+    - Actualmente el requerimiento no funcional 3 dice que deben poder haber varios torneos simultáneamente, pero al ver el contexto del caso, se pide un solo torneo activo a la vez.
+
 3. If you had to prioritize the requirements, which 2 requirements should be considered the most important and implemented in the first iteration of the project?
+    - El RF-01 y RF-02. Estos 2 son esenciales. Sin poder crear torneos ni registrarnos a los mismos la aplicación no serviría de nada y no aportaría valor al negocio.
 4. Is there any requirement that should not be implemented?
+
+    - Creemos que ninguno de los requisitos sobra. Necesitamos crear un torneo, registrar a un equipo, pagar la inscripción y reportar lo sucedido para aportar valor al negocio. Podríamos decir que el requerimiento de generación de reportes es el menos necesario, pero puede ser útil.
