@@ -1,7 +1,6 @@
 # DOSW_Lab3_Moreno_Novoa_Pachon
 Repository dedicated to user research, requirements gathering, and UI/UX design. Integrates specification techniques like context diagrams, requirements definition and analysis, mockups and navigation flows
 
-Repository dedicated to user research, requirements gathering, and UI/UX design. Integrates specification techniques like context diagrams, requirements definition and analysis, mockups and navigation flows
 
 ## Maven Project Structure
 
@@ -68,3 +67,4 @@ Apache Maven. (n.d.). *Maven Archetype Plugin*. Apache Maven. https://maven.apac
 Apache Maven. (n.d.). *Maven Getting Started Guide*. Apache Maven. https://maven.apache.org/guides/getting-started/
 
 GitHub Docs. (n.d.). *About pull requests*. GitHub. https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
+
