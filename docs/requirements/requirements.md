@@ -8,21 +8,21 @@ El sistema de Bankify tiene los siguientes requerimientos (descripción a alto n
 
 El sistema de Bankify debe tener la capacidad de:
 
-1.
-2.
-3.
-4.
-5.
+1. <mark>La aplicación debe permitir a los organizadores crear torneos, especificando su información básica.</mark>
+2. <mark>La aplicación debe permitir a los usuarios registrarse a torneos activos.</mark>
+3. El sistema debe proteger las credenciales de los usuarios mediante autenticación por correo y contraseña.
+4. Procesar el pago realizado por los capitanes de la inscripción a través de PSE.
+5. <mark>Permitir a los organizadores generar un reporte sobre los equipos inscritos.</mark>
 
-### 1.2 Requerimientos funcionales
+### 1.2 Requerimientos no funcionales
 
 El sistema de Bankify debe tener:
 
-1.
-2.
-3.
-4.
-5.
+1. Las contraseñas de los usuarios deben ser cifradas para proteger las cuentas.
+2. Una UI clara e intuitiva que permita fácil identificación de roles y torneos.
+3. El sistema debe soportar a varios torneos simultáneamente y mostrar sus respectivos estados.
+4. La aplicación debe mostrar un mensaje de confirmación al realizar el pago.
+5. La aplicación no debe demorarse más de unos segundos en responder a las solicitudes de los usuarios.
 
 ## 2. Diagramas de caso de uso
 
