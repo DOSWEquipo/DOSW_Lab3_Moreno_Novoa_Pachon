@@ -80,3 +80,10 @@ El sistema de Bankify debe tener:
 4. Is there any requirement that should not be implemented?
 
     - Creemos que ninguno de los requerimientos está demás. Necesitamos crear un torneo, registrar a un equipo, pagar la inscripción y reportar lo sucedido para aportar valor al negocio, y cada uno de los requerimientos expuestos aporta algo a cumplir con ese objetivo. No obstante, podríamos decir que el requerimiento de generación de reportes no influye directamente en las dinámicas "operativas", siendo más una herramienta para el análisis gerencial.
+
+
+## 4. Link del Mockup
+
+> Link: https://www.figma.com/design/9vxfIUOMuZhe5hI099PvQn/Mockups-and-Navigation-Flows-TechCup---LAB03---DOSW?node-id=0-1&m=dev&t=vV07aClwXq9bCLma-1
+
+
