@@ -67,3 +67,8 @@ El sistema de Bankify debe tener:
 | **Poscondiciones** | *Se espera como resultado …* |
 
 ## 3. Preguntas
+
+
+## 4. Link del Mockup
+
+> Link: https://www.figma.com/design/9vxfIUOMuZhe5hI099PvQn/Mockups-and-Navigation-Flows-TechCup---LAB03---DOSW?node-id=0-1&m=dev&t=vV07aClwXq9bCLma-1
